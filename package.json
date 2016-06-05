@@ -2,7 +2,7 @@
   "name": "reqparam1",
   "version": "1.0.0",
   "description": "demo of req params",
-  "main": "app.js",
+  "main": "app4.js",
   "scripts": {
     "test": "nodemon app.js"
   },
