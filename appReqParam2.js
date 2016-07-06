@@ -1,8 +1,8 @@
 var exp = require("express");
 var app = exp();
 
-app.get('/players/:lang/:name', function(req, res){
-	
+app.get('/players/:nation/:lang/:name', function(req, res){
+	res.write("Nation =" + req.params.nation);
 	res.write("name=" + req.params.name);
 	res.end("   lang=" + req.params.lang);
 });
